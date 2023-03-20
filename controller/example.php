@@ -1,15 +1,15 @@
 <?php
 helper("typer", 1);
 
-# useModel("example");
+useModel("example");
 function indexAction()
 {
-    #getSomeData();
+    getSomeData();
     $data = ["msg" => "Just smile", "title" => "happyMVC", "main" => getBaseUrl()];
     getView("example", $data);
 }
 
-function tryYourMessage($params) {
-    $data = ["msg" => $params['msg'], "title" => "happyMVC"];
+function withParameter($params) {
+    $data = ["msg" => $params['param'], "title" => "happyMVC"];
     getView("example", $data);
 }

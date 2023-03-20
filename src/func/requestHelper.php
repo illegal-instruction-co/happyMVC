@@ -33,7 +33,11 @@ function setRoute($uri, $callback) {
             @@call_user_func($callback, $realParams);
         }
     } else {
-        runController($callback[0], $callback[1], @@$realParams);
+        try {
+            runController($callback[0], $callback[1], @@$realParams);
+        } catch (Throwable $e) {
+            getView("404", []);
+        }
     }
 }
 

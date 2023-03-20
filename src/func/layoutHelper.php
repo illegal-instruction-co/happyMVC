@@ -8,7 +8,6 @@ function runController($controller, $action, $params = null) {
         if(file_exists($filePath)) {
             require_once($filePath);
             if(function_exists($action)) {
-                # Sayfamızı çalıştırıyoruz
                 $action($params);
                 die("<!--happy-->");
             } else {
