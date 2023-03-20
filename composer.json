@@ -1,7 +1,7 @@
 {
-    "name": "insayd10/happymvc",
+    "name": "illegal-instruction-co/happymvc",
     "require": {
-        "insayd10/happyMVC": "dev-master",
+        "illegal-instruction-co/happyMVC": "dev-master",
         "psr/log": "dev-master",
         "dwoo/dwoo": "1.3.*"
     }

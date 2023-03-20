@@ -1,5 +1,7 @@
 
-# HappyMVC
+# HappyMVC ![GitHub](https://img.shields.io/github/license/illegal-instruction-co/happyMVC?logo=happyMVC) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/illegal-instruction-co/happyMVC)
+
+![screenshot](https://raw.githubusercontent.com/illegal-instruction-co/happyMVC/master/assets/screenshot.jpg)
 
 Introducing the world's first and only functional Model-View-Controller (MVC) framework that works seamlessly with Composer. Our framework is not only the first of its kind, but also the simplest, most elegant solution for developers who want to create robust, maintainable web applications with ease.
 
